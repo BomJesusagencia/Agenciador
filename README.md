@@ -1,1 +1,77 @@
-# Agenciador
+<!DOCTYPE html><html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenciamento de Carga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .form {
+            margin-top: 20px;
+            text-align: left;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Precisa de Frete? Temos a Solução!</h1>
+        <p>Somos especialistas em conectar empresas e motoristas para garantir entregas rápidas e seguras.</p>
+        <a class="btn" href="https://wa.me/seunumerodetelefone">Fale Conosco no WhatsApp</a><div class="form">
+        <h2>Peça um Orçamento</h2>
+        <form action="#" method="POST">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="text" name="telefone" placeholder="Seu WhatsApp" required>
+            <textarea name="detalhes" placeholder="Detalhes da carga"></textarea>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
